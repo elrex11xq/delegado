@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ElDelegado.com — La comunidad MUN de Latinoamérica</title>
+  <meta name="description" content="ElDelegado.com es la plataforma líder para la comunidad de Modelo de Naciones Unidas en Latinoamérica. Encuentra eventos, recursos, guías y cursos de oratoria." />
+  <meta name="keywords" content="MUN, Modelo de Naciones Unidas, NACIONES UNIDAS, delegados, debate, oratoria, Latinoamérica, conferencias" />
+  <meta name="author" content="ElDelegado.com" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ElDelegado.com — La comunidad MUN de Latinoamérica" />
+  <meta property="og:description" content="Encuentra eventos MUN, guías, cursos de oratoria y una comunidad de delegados en toda Latinoamérica." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://eldelegado.com" />
+  <meta property="og:image" content="https://eldelegado.com/og-image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ElDelegado.com — La comunidad MUN de Latinoamérica" />
+  <meta name="twitter:description" content="Encuentra eventos MUN, guías, cursos y comunidad para delegados en Latinoamérica." />
+
+  <link rel="stylesheet" href="styles.css" />
+  <!-- OPTIMIZACIÓN DE RECURSOS: Preconexión síncrona para mitigar latencia (FCP) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">🌐</span>
+        <span class="logo-text">El<strong>Delegado</strong></span>
+      </a>
+
+      <!-- ESTRUCTURA UNIFICADA: Enlaces de navegación con direccionamiento unívoco -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio" class="nav-link">Inicio</a></li>
+        <li><a href="#eventos" class="nav-link">Eventos</a></li>
+        <li><a href="#recursos" class="nav-link">Recursos</a></li>
+        <li><a href="#cursos" class="nav-link">Cursos</a></li>
+        <li><a href="#join" class="nav-link">Planes</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#join" class="btn btn-primary btn-sm">Únete gratis</a>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg"></div>
+    <div class="container hero-inner">
+      <div class="hero-content fade-in">
+        <span class="badge">🌎 La comunidad MUN de Latinoamérica</span>
+        <h1 class="hero-title">
+          Tu plataforma para<br />
+          <span class="highlight">destacar en MUN</span>
+        </h1>
+        <p class="hero-subtitle">
+          Encuentra conferencias, descarga guías, perfecciona tu oratoria y conecta con miles de delegados en toda Latinoamérica.
+        </p>
+        <div class="hero-actions">
+          <a href="#eventos" class="btn btn-primary btn-lg">
+            📅 Ver eventos MUN
+          </a>
+          <a href="#recursos" class="btn btn-outline btn-lg">
+            📚 Explorar recursos
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <strong>+2,400</strong>
+            <span>Delegados activos</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <strong>120+</strong>
+            <span>Eventos publicados</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <strong>18</strong>
+            <span>Países</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual fade-in delay-1">
+        <div class="hero-card-stack">
+          <div class="floating-card card-1">
+            <span class="card-icon">🏛️</span>
+            <div>
+              <p class="card-label">Próximo evento</p>
+              <p class="card-value">MUNUNAM 2026</p>
+            </div>
+          </div>
+          <div class="floating-card card-2">
+            <span class="card-icon">📜</span>
+            <div>
+              <p class="card-label">Guía descargada</p>
+              <p class="card-value">Posición Paper Pro</p>
+            </div>
+          </div>
+          <div class="floating-card card-3">
+            <span class="card-icon">🏆</span>
+            <div>
+              <p class="card-label">Logro desbloqueado</p>
+              <p class="card-value">Mejor Delegado</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">¿Qué encontrarás?</span>
+        <h2 class="section-title">Todo lo que necesitas para<br />crecer como delegado</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card fade-in">
+          <div class="feature-icon">📅</div>
+          <h3>Calendario de eventos</h3>
+          <p>Descubre y filtra conferencias MUN por país, modalidad y fecha. Nunca pierdas un evento cercano a ti.</p>
+          <a href="#eventos" class="feature-link">Ver calendario →</a>
+        </div>
+        <div class="feature-card fade-in delay-1">
+          <div class="feature-icon">📚</div>
+          <h3>Guías y recursos</h3>
+          <p>Position papers, reglas de procedimiento, plantillas y más. Recursos gratuitos y premium para todos los niveles.</p>
+          <a href="#recursos" class="feature-link">Ver recursos →</a>
+        </div>
+        <div class="feature-card fade-in delay-2">
+          <div class="feature-icon">🎤</div>
+          <h3>Cursos de oratoria</h3>
+          <!-- Se ha eliminado la redundancia del anclaje en el párrafo -->
+          <p>Aprende a hablar con confianza, estructurar discursos y negociar resoluciones con nuestros cursos en video.</p>
+          <a href="#cursos" class="feature-link">Ver cursos →</a>
+        </div>
+        <div class="feature-card fade-in delay-3">
+          <div class="feature-icon">🤝</div>
+          <h3>Comunidad activa</h3>
+          <p>Conéctate con delegados de México, Colombia, Argentina, Chile y más. Comparte experiencias y forma equipos.</p>
+          <a href="#join" class="feature-link">Unirse →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRÓXIMOS EVENTOS -->
+  <section class="events-section" id="eventos">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Agenda 2026</span>
+        <h2 class="section-title">Próximos eventos MUN</h2>
+        <p class="section-subtitle">Conferencias verificadas de universidades en toda Latinoamérica</p>
+      </div>
+
+      <div class="events-list">
+        <!-- Evento 1 -->
+        <div class="event-card fade-in">
+          <div class="event-date">
+            <span class="event-day">14</span>
+            <span class="event-month">AGO</span>
+          </div>
+          <div class="event-body">
+            <div class="event-header">
+              <h3 class="event-name">MUNUNAM 2026</h3>
+              <span class="badge-status open">Registro abierto</span>
+            </div>
+            <p class="event-university">🏛️ Universidad Nacional Autónoma de México</p>
+            <div class="event-meta">
+              <span class="meta-item">📍 Ciudad de México</span>
+              <span class="meta-item">💻 Presencial</span>
+              <span class="meta-item">🗓️ 14 – 17 ago 2026</span>
+            </div>
+          </div>
+          <div class="event-action">
+            <a href="#" class="btn btn-primary btn-sm">Ver detalles</a>
+          </div>
+        </div>
+
+        <!-- Evento 2 -->
+        <div class="event-card fade-in delay-1">
+          <div class="event-date">
+            <span class="event-day">02</span>
+            <span class="event-month">SEP</span>
+          </div>
+          <div class="event-body">
+            <div class="event-header">
+              <h3 class="event-name">COLMUN 2026</h3>
+              <span class="badge-status open">Registro abierto</span>
+            </div>
+            <p class="event-university">🏛️ Universidad de los Andes</p>
+            <div class="event-meta">
+              <span class="meta-item">📍 Bogotá, Colombia</span>
+              <span class="meta-item">💻 Híbrido</span>
+              <span class="meta-item">🗓️ 2 – 5 sep 2026</span>
+            </div>
+          </div>
+          <div class="event-action">
+            <a href="#" class="btn btn-primary btn-sm">Ver detalles</a>
+          </div>
+        </div>
+
+        <!-- Evento 3 -->
+        <div class="event-card fade-in delay-2">
+          <div class="event-date">
+            <span class="event-day">20</span>
+            <span class="event-month">OCT</span>
+          </div>
+          <div class="event-body">
+            <div class="event-header">
+              <h3 class="event-name">SARMUN 2026</h3>
+              <span class="badge-status soon">Próximamente</span>
+            </div>
+            <p class="event-university">🏛️ Universidad de Buenos Aires</p>
+            <div class="event-meta">
+              <span class="meta-item">📍 Buenos Aires, Argentina</span>
+              <span class="meta-item">🌐 Virtual</span>
+              <span class="meta-item">🗓️ 20 – 23 oct 2026</span>
+            </div>
+          </div>
+          <div class="event-action">
+            <a href="#" class="btn btn-outline btn-sm">Notificarme</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="events-cta fade-in">
+        <a href="#" class="btn btn-ghost">Ver todos los eventos →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECURSOS DESTACADOS -->
+  <section class="resources-section" id="recursos">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Biblioteca MUN</span>
+        <h2 class="section-title">Recursos destacados</h2>
+        <p class="section-subtitle">Guías, plantillas y materiales para llevar tu delegación al siguiente nivel</p>
+      </div>
+
+      <div class="resources-grid">
+        <div class="resource-card fade-in">
+          <div class="resource-cover free">
+            <span class="resource-emoji">📄</span>
+            <span class="resource-tag-cover">GRATIS</span>
+          </div>
+          <div class="resource-body">
+            <span class="resource-category">Fundamentos</span>
+            <h3>Guía completa de Position Paper</h3>
+            <p>Aprende a redactar un position paper impecable con estructura, ejemplos reales y consejos de jueces MUN.</p>
+            <div class="resource-footer">
+              <span class="resource-price free-price">Gratis</span>
+              <a href="#" class="btn btn-sm btn-primary">Descargar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card fade-in delay-1">
+          <div class="resource-cover premium">
+            <span class="resource-emoji">⚖️</span>
+            <span class="resource-tag-cover">PREMIUM</span>
+          </div>
+          <div class="resource-body">
+            <span class="resource-category">Procedimiento</span>
+            <h3>Manual de Reglas de Procedimiento Avanzado</h3>
+            <p>Domina los procedimientos parlamentarios: enmiendas, puntos de orden, mociones y más con casos prácticos.</p>
+            <div class="resource-footer">
+              <span class="resource-price">$4.99 USD</span>
+              <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card fade-in delay-2">
+          <div class="resource-cover premium">
+            <span class="resource-emoji">🗣️</span>
+            <span class="resource-tag-cover">PREMIUM</span>
+          </div>
+          <div class="resource-body">
+            <span class="resource-category">Oratoria</span>
+            <h3>Kit de Discursos para Delegados</h3>
+            <p>Plantillas de discursos de apertura, cierre, enmiendas y réplicas adaptadas para diferentes comités.</p>
+            <div class="resource-footer">
+              <span class="resource-price">$6.99 USD</span>
+              <a href="#" class="btn btn-sm btn-primary">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="resource-card fade-in delay-3">
+          <div class="resource-cover free">
+            <span class="resource-emoji">🌍</span>
+            <span class="resource-tag-cover">GRATIS</span>
+          </div>
+          <div class="resource-body">
+            <span class="resource-category">Investigación</span>
+            <h3>Plantilla de Investigación de País</h3>
+            <p>Framework probado para investigar a tu país asignado: política exterior, posiciones históricas y alianzas.</p>
+            <div class="resource-footer">
+              <span class="resource-price free-price">Gratis</span>
+              <a href="#" class="btn btn-sm btn-primary">Descargar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURSOS SECTION -->
+  <!-- CONTENEDOR SEMÁNTICO: Elevación del ID para un desplazamiento preciso -->
+  <section class="courses-section" id="cursos">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Aprende en línea</span>
+        <h2 class="section-title">Cursos para delegados</h2>
+        <p class="section-subtitle">Aprende a tu ritmo con instructores que han participado en conferencias internacionales</p>
+      </div>
+      <div class="courses-grid">
+        <div class="course-card fade-in">
+          <div class="course-thumb thumb-1">
+            <span class="course-play">▶</span>
+            <span class="course-duration">4h 30min</span>
+          </div>
+          <div class="course-body">
+            <span class="course-level beginner">Principiante</span>
+            <h3>MUN desde cero</h3>
+            <p>Perfecta para tu primera conferencia. Aprende vocabulario, procedimientos y cómo prepararte.</p>
+            <div class="course-footer">
+              <span class="course-price free-price">Gratis</span>
+              <span class="course-students">👥 1,240 estudiantes</span>
+            </div>
+          </div>
+        </div>
+        <div class="course-card fade-in delay-1">
+          <div class="course-thumb thumb-2">
+            <span class="course-play">▶</span>
+            <span class="course-duration">6h 15min</span>
+          </div>
+          <div class="course-body">
+            <span class="course-level intermediate">Intermedio</span>
+            <h3>Oratoria y negociación efectiva</h3>
+            <p>Técnicas avanzadas de persuasión, manejo de objeciones y construcción de bloques.</p>
+            <div class="course-footer">
+              <span class="course-price">$12.99 USD</span>
+              <span class="course-students">👥 847 estudiantes</span>
+            </div>
+          </div>
+        </div>
+        <div class="course-card fade-in delay-2">
+          <div class="course-thumb thumb-3">
+            <span class="course-play">▶</span>
+            <span class="course-duration">8h 00min</span>
+          </div>
+          <div class="course-body">
+            <span class="course-level advanced">Avanzado</span>
+            <h3>Secretaría General: liderazgo MUN</h3>
+            <p>Todo para organizar o presidir un comité: formatos, gestión del tiempo y resolución de conflictos.</p>
+            <div class="course-footer">
+              <span class="course-price">$19.99 USD</span>
+              <span class="course-students">👥 312 estudiantes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA ORGANIZADORES -->
+  <section class="organizers-cta" id="blog">
+    <div class="container">
+      <div class="cta-card fade-in">
+        <div class="cta-content">
+          <span class="cta-badge">Para organizadores</span>
+          <h2>¿Organizas un MUN?<br />Publica tu convocatoria</h2>
+          <p>Llega a miles de delegados interesados en toda Latinoamérica. Publicar tu evento en ElDelegado.com es rápido, fácil y gratuito en el plan básico.</p>
+          <ul class="cta-benefits">
+            <li>✅ Alcance a +2,400 delegados activos</li>
+            <li>✅ Página de evento personalizada</li>
+            <li>✅ Difusión en redes sociales</li>
+            <li>✅ Formulario de inscripción integrado</li>
+          </ul>
+          <div class="cta-actions">
+            <a href="#" class="btn btn-white btn-lg">Publicar mi evento gratis</a>
+            <a href="#" class="btn btn-outline-white btn-lg">Ver planes premium</a>
+          </div>
+        </div>
+        <div class="cta-visual">
+          <div class="cta-mockup">
+            <div class="mockup-header">
+              <span class="mockup-dot"></span>
+              <span class="mockup-dot"></span>
+              <span class="mockup-dot"></span>
+            </div>
+            <div class="mockup-body">
+              <div class="mockup-line long"></div>
+              <div class="mockup-line medium"></div>
+              <div class="mockup-line short"></div>
+              <div class="mockup-spacer"></div>
+              <div class="mockup-line medium"></div>
+              <div class="mockup-line long"></div>
+              <div class="mockup-spacer"></div>
+              <div class="mockup-btn-fake"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEMBRESÍAS / JOIN -->
+  <section class="membership-section" id="join">
+    <div class="container">
+      <div class="section-header fade-in">
+        <span class="section-tag">Membresías</span>
+        <h2 class="section-title">Elige tu plan</h2>
+        <p class="section-subtitle">Empieza gratis. Actualiza cuando estés listo.</p>
+      </div>
+      <div class="plans-grid">
+        <div class="plan-card fade-in">
+          <div class="plan-header">
+            <h3>Gratis</h3>
+            <div class="plan-price">$0<span>/mes</span></div>
+          </div>
+          <ul class="plan-features">
+            <li>✓ Acceso al calendario de eventos</li>
+            <li>✓ 2 guías gratuitas al mes</li>
+            <li>✓ Comunidad básica</li>
+            <li>✓ Newsletter semanal</li>
+            <li class="disabled">✗ Recursos premium</li>
+            <li class="disabled">✗ Cursos completos</li>
+            <li class="disabled">✗ Descuentos en eventos</li>
+          </ul>
+          <a href="#" class="btn btn-outline plan-btn">Comenzar gratis</a>
+        </div>
+
+        <div class="plan-card featured fade-in delay-1">
+          <div class="plan-badge">Más popular</div>
+          <div class="plan-header">
+            <h3>Delegado Pro</h3>
+            <div class="plan-price">$4.99<span>/mes</span></div>
+          </div>
+          <ul class="plan-features">
+            <li>✓ Todo lo del plan gratis</li>
+            <li>✓ Recursos premium ilimitados</li>
+            <li>✓ Acceso a todos los cursos</li>
+            <li>✓ Descuentos en eventos (10%)</li>
+            <li>✓ Comunidad exclusiva</li>
+            <li>✓ Soporte prioritario</li>
+            <li class="disabled">✗ Publicación de eventos</li>
+          </ul>
+          <a href="#" class="btn btn-primary plan-btn">Suscribirme</a>
+        </div>
+
+        <div class="plan-card fade-in delay-2">
+          <div class="plan-header">
+            <h3>Organizador</h3>
+            <div class="plan-price">$14.99<span>/mes</span></div>
+          </div>
+          <ul class="plan-features">
+            <li>✓ Todo lo del plan Pro</li>
+            <li>✓ Publicación ilimitada de eventos</li>
+            <li>✓ Página de evento personalizada</li>
+            <li>✓ Estadísticas de inscripción</li>
+            <li>✓ Difusión en redes sociales</li>
+            <li>✓ Soporte dedicado</li>
+            <li>✓ Descuentos en eventos (20%)</li>
+          </ul>
+          <a href="#" class="btn btn-outline plan-btn">Elegir plan</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo logo-white">
+          <span class="logo-icon">🌐</span>
+          <span class="logo-text">El<strong>Delegado</strong></span>
+        </a>
+        <p class="footer-tagline">La plataforma MUN de Latinoamérica. Conectamos delegados, eventos y recursos en un solo lugar.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Twitter / X">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="#" class="social-link" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-links-group">
+        <h4>Plataforma</h4>
+        <ul>
+          <li><a href="#eventos">Eventos MUN</a></li>
+          <li><a href="#recursos">Recursos</a></li>
+          <!-- Enlace corregido en el footer -->
+          <li><a href="#cursos">Cursos</a></li>
+          <li><a href="#join">Membresías</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-group">
+        <h4>Comunidad</h4>
+        <ul>
+          <li><a href="#">Blog MUN</a></li>
+          <li><a href="#">Foro de delegados</a></li>
+          <li><a href="#">Directorio de universidades</a></li>
+          <li><a href="#">Testimonios</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-group">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li><a href="#">Términos de uso</a></li>
+          <li><a href="#">Privacidad</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-newsletter">
+        <h4>Newsletter semanal</h4>
+        <p>Eventos, recursos y noticias MUN directo a tu correo cada semana.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input
+            type="email"
+            placeholder="tu@correo.com"
+            required
+            class="newsletter-input"
+            aria-label="Correo electrónico"
+          />
+          <button type="submit" class="btn btn-primary btn-sm newsletter-btn">Suscribirse</button>
+        </form>
+        <p class="newsletter-note" id="newsletterMsg" hidden>¡Gracias! Te hemos añadido a la lista. 🎉</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© 2026 ElDelegado.com — Hecho con 💙 para la comunidad MUN de Latinoamérica</p>
+        <p>Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
